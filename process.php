@@ -1,6 +1,7 @@
 <?php
 
 $paragraph = $_POST['paragraph'];
+$badword = $_POST['badword'];
 
 
 
@@ -15,6 +16,7 @@ $paragraph = $_POST['paragraph'];
     <title>Document</title>
 </head>
 <body>
+     <h1>Risultati PHP Badwords</h1>
     <p> <?php echo $paragrafo ?></p>
 </body>
 </html>
