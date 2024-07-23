@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badwordst</title>
+    <title>PHP Badwords</title>
 </head>
 <body>
     <h1>PHP Badwords</h1>
     <form action="process.php" method="POST">
         <label for="paragraph">Paragrafo:</label><br>
-        <textarea name="paragraph" id="paragraph" placeholder="Scrivi paragrafo"></textarea><br><br>
+        <textarea name="paragraph" placeholder="Scrivi paragrafo" required></textarea><br><br>
     
         <label for="badword">Parola da censurare:</label><br>
-        <input type="text" name="badword" placeholder="Parola da censurare" ><br><br>
+        <input type="text" name="badword" placeholder="Parola da censurare" required><br><br>
     
         <button type="submit">Invia</button>
     </form>
